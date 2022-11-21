@@ -1,0 +1,98 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Fraunces', serif; */
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .container{
+    display: flex;
+    background-color: white;
+    height: 450px;
+    width: 600px;
+    margin: 210px;
+    border-radius: 10px;
+}
+
+.container img{
+    max-width: 768px;
+    max-height: 450px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container .about{
+    height: 100%;
+    padding: 30px;
+    column-gap: 10px;
+}
+
+.container .about .perfume{
+    font-size: 13px;
+}
+
+.container .about h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    padding: 22px 0px;
+    line-height: 33px;
+}
+
+.container .about .product-description{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.container .about h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    padding: 20px 0px;
+}
+
+.container .about h2 strong{
+    padding-right: 10px;
+    font-size: 33px;
+}
+
+
+.container .about h2 span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: line-through;
+    position: relative;
+    bottom: 10px;
+}
+
+.container .about .perfume,.product-description,h2 span{
+    color: hsl(228, 12%, 48%);
+}
+
+
+.container .about .btn{
+    height: 50px;
+    width: 240px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 10px;
+}
+
+.container .about .btn:hover{
+    background-color: hsl(212, 21%, 14%);
+    cursor: pointer;
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

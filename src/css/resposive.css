@@ -1,0 +1,31 @@
+@media (max-width: 375px){
+    .main{
+        height: 900px;
+    }
+    
+    .main .container{
+        flex-direction: column;
+        height: 830px;
+    }
+
+    .container img{
+        border-radius: 10px;
+        max-width: 450px;
+        max-height: 450px;
+    }
+
+    .container .about h1{
+        font-size: 25px;
+        padding: 10px 0px;
+    }
+
+    .container .about .product-description{
+        font-size: 11px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
